@@ -9,7 +9,8 @@
 
   <script>
       System.config({
-          defaultJSExtensions: true
+          defaultJSExtensions: true,
+          devtool: 'inline-source-map',
       });
   </script>
 
@@ -17,6 +18,6 @@
 </head>
 <body>
   <gdg-app></gdg-app>
-  <script>System.import('js/all');</script>
+  <script>System.import('app/app');</script>
 </body>
 </html>

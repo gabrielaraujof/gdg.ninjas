@@ -19,8 +19,8 @@ var GDGApp = (function () {
             selector: 'gdg-app'
         }),
         angular2_2.View({
-            directives: [header_1.GDGHeader],
-            templateUrl: './app/app.html'
+            templateUrl: './app/app.html',
+            directives: [header_1.GDGHeader]
         }), 
         __metadata('design:paramtypes', [])
     ], GDGApp);

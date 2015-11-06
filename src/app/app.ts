@@ -7,8 +7,8 @@ import {GDGHeader} from './components/header/header';
   selector: 'gdg-app'
 })
 @View({
-  directives: [GDGHeader], // Comente essa linha e o serve funciona normalmente
-  templateUrl: './app/app.html'
+  templateUrl: './app/app.html',
+  directives: [GDGHeader] // Comente essa linha e o serve funciona normalmente
 })
 export class GDGApp {
   siteName: string;

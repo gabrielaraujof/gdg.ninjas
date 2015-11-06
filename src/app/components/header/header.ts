@@ -4,6 +4,8 @@ import {Component, View} from 'angular2/angular2';
   selector: "gdg-header"
 })
 @View({
-  templateUrl: "header.html"
+  templateUrl: "./app/components/header/header.html"
 })
-export class GDGHeader{}
+export class GDGHeader{
+  
+}

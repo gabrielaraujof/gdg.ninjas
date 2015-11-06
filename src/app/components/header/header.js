@@ -16,7 +16,7 @@ var GDGHeader = (function () {
             selector: "gdg-header"
         }),
         angular2_1.View({
-            templateUrl: "header.html"
+            templateUrl: "./app/components/header/header.html"
         }), 
         __metadata('design:paramtypes', [])
     ], GDGHeader);
