@@ -8,19 +8,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var App = (function () {
-    function App() {
-        this.name = "World";
+var GDGHeader = (function () {
+    function GDGHeader() {
     }
-    App = __decorate([
+    GDGHeader = __decorate([
         angular2_1.Component({
-            selector: 'my-app'
+            selector: "gdg-header"
         }),
         angular2_1.View({
-            template: "<h1>Hello {{ name }}</h1>"
+            templateUrl: "header.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], App);
-    return App;
+    ], GDGHeader);
+    return GDGHeader;
 })();
-angular2_1.bootstrap(App);
+exports.GDGHeader = GDGHeader;
